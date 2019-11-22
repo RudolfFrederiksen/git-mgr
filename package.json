@@ -1,0 +1,24 @@
+{
+    "name": "@rudolffrederiksen/git-mgr",
+    "repository": "git://github.com/rudolffrederiksen/git-mgr.git",
+    "author": "rfrederiksen",
+    "version": "0.0.1",
+    "description": "handle multiple git projects",
+    "keywords": [
+        "git",
+        "organisation"
+    ],
+    "license": "ISC",
+    "main": "cli.js",
+    "bin": {
+        "gitmgr": "./cli.js"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
+    "dependencies": {
+        "prettier": "^1.19.1",
+        "shelljs": "^0.8.3",
+        "yaml": "^1.7.2"
+    }
+}
