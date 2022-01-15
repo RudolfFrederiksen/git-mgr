@@ -18,7 +18,7 @@
     },
     "dependencies": {
         "prettier": "^1.19.1",
-        "shelljs": "^0.8.3",
+        "shelljs": "^0.8.5",
         "yaml": "^1.7.2"
     }
 }
